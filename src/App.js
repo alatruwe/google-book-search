@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import BookList from "./composition/Book";
 import NavBar from "./composition/NavBar.js";
 import SearchArea from "./composition/SearchArea.js";
 
@@ -9,6 +10,7 @@ class App extends React.Component {
       <main className="App">
         <NavBar />
         <SearchArea />
+        <BookList />
       </main>
     );
   }
