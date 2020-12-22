@@ -12,7 +12,7 @@ class BookList extends React.Component {
 
   componentDidMount() {
     const baseUrl = "https://www.googleapis.com/books/v1/volumes?q=";
-    const apiKey = "AIzaSyCtT-5Hl4UsRhciJF09qvNCsKMmC4gDfvQ";
+    const apiKey = "";
     const searchTerm = this.state.searchTerm;
     const url = baseUrl + searchTerm + "&" + apiKey;
 
